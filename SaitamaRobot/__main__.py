@@ -78,8 +78,8 @@ SAITAMA_IMG = "https://static.alphacoders.com/desktops/21077.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 RASHMIKA is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, ALEN TL
-There is only one way of supporting him; [PayPal](paypal.me/ALENTL) ."""
+You can donate to the original writer of the Base code, [VK PROJECTS](https://t.me/VKPROJECTS)
+There is only one way of supporting him; [PayPal](paypal.me/VIVEKTVP) ."""
 
 IMPORTED = {}
 MIGRATEABLE = []

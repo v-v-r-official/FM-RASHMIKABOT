@@ -76,12 +76,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am the group management bot of FOCUS MOVIES .. You guys can't use me or add me to groups.........
+I can managing your group with useful features, feel free to add me to your groups!
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I am exlusively made for FOCUS MOVIES Group and You cannot add me to your groups....You can use me either by / or ! command
+I can managing your group with useful features, feel free to add me to your groups! You can use me either by / or ! command
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -221,26 +221,23 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text=" 🎉 Add Me To Your Group ",
                             url="t.me/{}?startgroup=true".format(
-                                context.bot.username)),
+                                context.bot.username)),        
+                       
+                     ],
+                     [
                          InlineKeyboardButton(
                              text=" 🔔 Channel ",
-                             url="https://t.me/focusgrpchannel")
+                             url="https://t.me/VKPROJECTS")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
-                            url="https://t.me/midukkirashmika2_bot?start=help"),
+                            url="https://t.me/GroupMenter_bot?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Group ",
-                             url="https://t.me/focusmoviess")        
-                       
-                     ],
-                     [
-                        InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/ALENTL/FM-RASHMIKABOT")
+                             url="https://t.me/VKP_BOTS")
                     
                     ]]))
     else:

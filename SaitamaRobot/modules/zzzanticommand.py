@@ -49,7 +49,7 @@ def rem_cmds(bot: Bot, update: Update, args: List[str]) -> str:
                                                                           mention_html(user.id, user.first_name))
     else:
         # idek what you're writing, say yes or no
-        update.effective_message.reply_text("just add on / yes or Off / no In Your Messege"")
+        update.effective_message.reply_text("just add 'on / yes' or 'Off / no' In Your Messege")
         return ""
 
 @run_async
